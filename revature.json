@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ReturnLongestStringTest.java",
+      "testCases": [
+        {
+          "methodName": "ReturnLongestStringTest1",
+          "label": "Finds longest string among simple inputs",
+          "description": "Verifies that the method returns 'hijk' as the longest string in the given array."
+        },
+        {
+          "methodName": "ReturnLongestStringTest2",
+          "label": "Finds longest string among larger varied inputs",
+          "description": "Ensures the method identifies 'hijkfdgafgafg' as the longest string in the given array."
+        },
+        {
+          "methodName": "ReturnLongestStringTest3",
+          "label": "Finds longest string among simple inputs",
+          "description": "Verifies that the method returns 'defsdgh' as the longest string in the given array."
+        }
+      ]
+    }
+  ]
+}
